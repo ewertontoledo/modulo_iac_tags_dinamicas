@@ -1,12 +1,12 @@
 variable "env" {
   type        = string
-  default     = ""
+  default     = "Teste"
   description = "description"
 }
 
 variable "bucket_name" {
   type        = string
-  default     = ""
+  default     = "Teste S3"
   description = "description"
 }
 
