@@ -1,11 +1,16 @@
-variable "environment" {
+variable "env" {
   type        = string
   default     = ""
   description = "description"
 }
 
-variable "name" {
+variable "bucket_name" {
   type        = string
   default     = ""
   description = "description"
+}
+
+ variable "region" {
+    type = string
+    default = "us-east-1"
 }

@@ -1,7 +1,7 @@
 locals {
   tags = {
-    Environment = var.environment
-    Name        = var.name
+    Environment = var.env
+    Name        = var.bucket_name
   }
 }
 
